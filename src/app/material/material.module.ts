@@ -9,14 +9,27 @@ import * as Material from '@angular/material';
     Material.MatToolbarModule,
     Material.MatGridListModule,
     Material.MatInputModule,
-    Material.MatFormFieldModule
-
+    Material.MatFormFieldModule,
+    Material.MatRadioModule,
+    Material.MatSelectModule,
+    Material.MatDatepickerModule,
+    Material.MatCheckboxModule,
+    Material.MatDatepickerModule,
+    Material.MatNativeDateModule,
+    Material.MatButtonModule
   ],
   exports: [
     Material.MatToolbarModule,
     Material.MatGridListModule,
     Material.MatInputModule,
-    Material.MatFormFieldModule
+    Material.MatFormFieldModule,
+    Material.MatRadioModule,
+    Material.MatSelectModule,
+    Material.MatDatepickerModule,
+    Material.MatCheckboxModule,
+    Material.MatDatepickerModule,
+    Material.MatNativeDateModule,
+    Material.MatButtonModule
   ]
 })
 export class MaterialModule { }
