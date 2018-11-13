@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AngularFireModule } from '@angular/fire';
@@ -28,7 +28,8 @@ import { EmployeeListComponent } from './employees/employee-list/employee-list.c
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AngularFireDatabaseModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    FormsModule
   ],
   providers: [ EmployeeService, DepartmentService ],
   bootstrap: [ AppComponent ]
