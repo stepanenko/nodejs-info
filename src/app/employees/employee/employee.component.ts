@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialogRef } from '@angular/material';
 
-import { EmployeeService } from 'src/app/shared/employee.service';
-import { DepartmentService } from 'src/app/shared/department.service';
-import { NotificationService } from 'src/app/shared/notification.service';
+import { EmployeeService } from '../../shared/employee.service';
+import { DepartmentService } from '../../shared/department.service';
+import { NotificationService } from '../../shared/notification.service';
 
 @Component({
   selector: 'app-employee',
@@ -15,7 +15,7 @@ export class EmployeeComponent implements OnInit {
   constructor(private service: EmployeeService,
     private departmentService: DepartmentService,
     private notificationService: NotificationService,
-    private dialogRef: MatDialogRef<EmployeeComponent>) { }
+    public dialogRef: MatDialogRef<EmployeeComponent>) {}
 
   ngOnInit() {
     this.service.getEmployees();
@@ -24,16 +24,19 @@ export class EmployeeComponent implements OnInit {
   onClear() {
     this.service.form.reset();
     this.service.initializeFormGroup();
+    this.notificationService.success(':: Submitted successfully');
   }
 
   onSubmit() {
     if (this.service.form.valid) {
-      !this.service.form.get('$key').value === null ?
-      this.service.insertEmployee(this.service.form.value) :
-      this.service.updateEmployee(this.service.form.value);
+      if (!this.service.form.get('$key').value) {
+        this.service.insertEmployee(this.service.form.value);
+      } else {
+        this.service.updateEmployee(this.service.form.value);
+      }
       this.service.form.reset();
       this.service.initializeFormGroup();
-      this.notificationService.success('Submitted Successfully');
+      this.notificationService.success(':: Submitted successfully');
       this.onClose();
     }
   }
