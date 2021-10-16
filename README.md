@@ -1,6 +1,4 @@
 
-# Digging into Node.js
+# NodeJS Information Repo
 
-Instructor: Kyle Simpson
-
-Watched: 7 / 41
+Created: 16.10.2021
