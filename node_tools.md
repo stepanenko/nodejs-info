@@ -10,7 +10,7 @@ Run locally `ncu` - show any new dependencies for the project in the current dir
 Run with npx: `npx npm-check-updates`.
 
 
-## To-be-tried tools lost:
+## To-be-tried tools list:
 
 - [npm-check](https://www.npmjs.com/package/npm-check)  
 
