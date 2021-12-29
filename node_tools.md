@@ -1,6 +1,10 @@
 
 # Useful NodeJS tools:
 
+- [nvm](https://github.com/nvm-sh/nvm#intro)
+
+`nvm` allows you to quickly install and use different versions of node via the command line. It is a version manager for **node.js**, designed to be installed per-user, and invoked per-shell. `nvm` works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 
 Upgrades your package.json dependencies to the latest versions, ignoring specified versions.  
@@ -10,7 +14,7 @@ Run locally `ncu` - show any new dependencies for the project in the current dir
 Run with npx: `npx npm-check-updates`.
 
 
-## To-be-tried tools list:
+## Tools to try:
 
 - [npm-check](https://www.npmjs.com/package/npm-check)  
 
