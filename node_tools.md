@@ -1,5 +1,5 @@
 
-# Ofter used NodeJS tools list
+# Useful NodeJS tools:
 
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 
