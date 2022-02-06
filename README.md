@@ -26,3 +26,21 @@ Only modifies `package.json` file. Run `npm install` to update your installed pa
 - [npm-check](https://www.npmjs.com/package/npm-check)  
 
 Check for outdated, incorrect, and unused dependencies.
+
+- [undici](https://www.npmjs.com/package/undici)
+
+A HTTP/1.1 client, written from scratch for Node.js.
+
+- [ws](https://www.npmjs.com/package/ws)
+
+`ws` is a simple to use, blazing fast, and thoroughly tested WebSocket client and server implementation.
+
+- [pino](https://www.npmjs.com/package/pino)
+
+Very low overhead Node.js logger.
+
+- [fastify](https://www.npmjs.com/package/fastify)
+
+ Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture. 
+ 
+ 
