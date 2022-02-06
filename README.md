@@ -23,6 +23,10 @@ Only modifies `package.json` file. Run `npm install` to update your installed pa
 ---
 ## Tools to try:
 
+- [snyk](https://www.npmjs.com/package/snyk)
+
+Snyk scans and monitors your projects for security vulnerabilities.
+
 - [npm-check](https://www.npmjs.com/package/npm-check)  
 
 Check for outdated, incorrect, and unused dependencies.
@@ -44,3 +48,15 @@ Very low overhead Node.js logger.
  Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture. 
  
  
+## Antipatterns:
+
+Mixin, middleware, reference pollution, prototype pollution
+
+## Vulnerabilities:
+
+- Routing: ReDOS, Path traversal. Don't parse URLs by RegExp, instead search URL endpoints in collection (Map - hash map)
+- XSS, SQLI, XSRF. Learn CSP (Content Security Policy)
+- Use `npm audit`, snyk, Github Security Alert
+
+
+
