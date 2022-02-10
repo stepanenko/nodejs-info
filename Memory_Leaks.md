@@ -1,4 +1,4 @@
-## Memory Leaks
+## Memory Leaks can be caused by:
 
 - References
   - Global variables
@@ -11,7 +11,7 @@
 - OS and Language Objects
   - Descriptors: files, sockets...
   - setTimeout, setInterval
-- Events / Sunscription
+- Events / Subscription
   - EventEmitter
   - Callbacks
 - Cache
@@ -27,7 +27,7 @@
   - Threads
   - Workers
 
-## Memory
+## Memory allocated to Nodejs process:
 
 - C++ Code
 - JavaScript Code
@@ -35,4 +35,4 @@
 - Heap
 - External
 
-Video: https://www.youtube.com/watch?v=0oZa64SB2wM&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ&index=29&ab_channel=TimurShemsedinov
+Video: https://www.youtube.com/watch?v=0oZa64SB2wM&t=829s&ab_channel=TimurShemsedinov
