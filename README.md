@@ -1,6 +1,8 @@
 
 # NodeJS Information Repo
 
+[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/)
+
 Created: 16.10.2021
 
 ## Useful NodeJS tools:

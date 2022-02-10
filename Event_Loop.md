@@ -41,7 +41,3 @@ foo()
 ## process.nextTick()
 
 To be added... https://nodejs.dev/learn/understanding-process-nexttick
-
----
-
-[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/)
