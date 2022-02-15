@@ -12,4 +12,4 @@ as well as V8 (the JavaScript engine) and other third-party modules. The layer a
 the Node.js binding layer, also contains a bit of C++. It’s only the highest layers of Node.js that are written in
 JavaScript, such as parts of the Node.js APIs that deal directly with objects provided by userland.
 
-More in the book: Distributed Systems with Node.js
+> More in the book: **Distributed Systems with Node.js** by Thomas Hunter II
