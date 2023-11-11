@@ -1,9 +1,16 @@
 
 # NodeJS
 
-[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/)
+The basic philosophy of node.js is:
+- Non-blocking I/O - every I/O call must take a callback, whether it is to retrieve information from disk, network or another process.
+- Built-in support for the most important protocols (HTTP, DNS, TLS)
+- Low-level. Do not remove functionality present at the POSIX layer. For example, support half-closed TCP connections.
+- Stream everything; never force the buffering of data.
 
-Created: 16.10.2021
+Node.js is different from client-side Javascript in that it removes certain things,
+like DOM manipulation, and adds support for evented I/O, processes, streams, HTTP, SSL, DNS, string and buffer processing and C/C++ addons.
+
+[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/) | [Mixu's Node book](https://book.mixu.net/node/single.html)
 
 ## Useful NodeJS tools:
 
@@ -22,34 +29,8 @@ Only modifies `package.json` file. Run `npm install` to update your installed pa
 - `ncu -x "package_to_not_update" -u` - upgrade `package.json` (omit packages following the `-x` flag)
 - `npx npm-check-updates -u` - run with npx (without a global install)
 
----
-## Tools to try:
+### [Tools to try...](https://github.com/stepanenko/nodejs-info/blob/master/TOOLS.md#tools-to-try)
 
-- [snyk](https://www.npmjs.com/package/snyk)
-
-Snyk scans and monitors your projects for security vulnerabilities.
-
-- [npm-check](https://www.npmjs.com/package/npm-check)  
-
-Check for outdated, incorrect, and unused dependencies.
-
-- [undici](https://www.npmjs.com/package/undici)
-
-A HTTP/1.1 client, written from scratch for Node.js.
-
-- [ws](https://www.npmjs.com/package/ws)
-
-`ws` is a simple to use, blazing fast, and thoroughly tested WebSocket client and server implementation.
-
-- [pino](https://www.npmjs.com/package/pino)
-
-Very low overhead Node.js logger.
-
-- [fastify](https://www.npmjs.com/package/fastify)
-
- Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture. 
- 
- 
 ## Antipatterns:
 
 Mixin, middleware, reference pollution, prototype pollution
