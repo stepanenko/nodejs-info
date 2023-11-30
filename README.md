@@ -27,26 +27,17 @@ for example by setting up a queue which is processed by a pool of workers, or by
 If you are performing CPU-bound work, then the only real solutions are to either figure out a better algorithm (to use less CPU)
 or to scale to multiple cores and multiple machines (to get more CPU's working on the problem).
 
-[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/) | [Mixu's Node book](https://book.mixu.net/node/single.html)
+[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/)
 
-## Useful NodeJS Tools:
+[Mixu's Node book](https://book.mixu.net/node/single.html)
 
-- [nvm](https://github.com/nvm-sh/nvm#intro)
+## NodeJS Tools:
 
-`nvm` allows you to quickly install and use different versions of node via the command line. It is a version manager for **node.js**, designed to be installed per-user, and invoked per-shell. `nvm` works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+- [nvm](https://github.com/nvm-sh/nvm#intro) - allows you to quickly install and use different versions of node via the command line.
 
----
-- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) - upgrades your `package.json` dependencies to the latest versions, ignoring specified versions.
 
-Upgrades your `package.json` dependencies to the latest versions, ignoring specified versions.  
-Only modifies `package.json` file. Run `npm install` to update your installed packages and `package-lock.json`.  
-
-- `npm install -g npm-check-updates` - install ncu globally
-- `ncu -u` updates `package.json` (if ommited displays old packages that could be updated)
-- `ncu -x "package_to_not_update" -u` - upgrade `package.json` (omit packages following the `-x` flag)
-- `npx npm-check-updates -u` - run with npx (without a global install)
-
-### [Tools to try...](https://github.com/stepanenko/nodejs-info/blob/master/TOOLS.md#tools-to-try)
+- [more tools to try...](https://github.com/stepanenko/nodejs-info/blob/master/TOOLS.md#tools-to-try)
 
 ## Antipatterns:
 
