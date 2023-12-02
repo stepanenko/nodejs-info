@@ -1,6 +1,10 @@
 
 # NodeJS
 
+[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/)
+
+[Mixu's Node book](https://book.mixu.net/node/single.html)
+
 The basic philosophy of node.js is:
 - Non-blocking I/O - every I/O call must take a callback, whether it is to retrieve information from disk, network or another process.
 - Built-in support for the most important protocols (HTTP, DNS, TLS)
@@ -27,17 +31,11 @@ for example by setting up a queue which is processed by a pool of workers, or by
 If you are performing CPU-bound work, then the only real solutions are to either figure out a better algorithm (to use less CPU)
 or to scale to multiple cores and multiple machines (to get more CPU's working on the problem).
 
-[Official NodeJS Getting Started](https://nodejs.dev/learn) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/)
-
-[Mixu's Node book](https://book.mixu.net/node/single.html)
-
 ## NodeJS Tools:
 
 - [nvm](https://github.com/nvm-sh/nvm#intro) - allows you to quickly install and use different versions of node via the command line.
-
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) - upgrades your `package.json` dependencies to the latest versions, ignoring specified versions.
-
-- [more tools to try...](https://github.com/stepanenko/nodejs-info/blob/master/TOOLS.md#tools-to-try)
+- [more tools...](https://github.com/stepanenko/nodejs-info/blob/master/TOOLS.md#tools-to-try)
 
 ## Antipatterns:
 
