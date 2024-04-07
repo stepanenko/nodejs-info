@@ -1,7 +1,7 @@
 
 # NodeJS
 
-[Official NodeJS Getting Started](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | [Official NodeJS Guides](https://nodejs.org/en/docs/guides/) | [Official NodeJS Docs](https://nodejs.org/dist/latest-v16.x/docs/api/)
+[Official NodeJS Guide](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | [Official NodeJS Latest Docs](https://nodejs.org/docs/latest/api/)
 
 [Mixu's Node book](https://book.mixu.net/node/single.html)
 
