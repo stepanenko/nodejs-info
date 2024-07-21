@@ -14,6 +14,24 @@ The basic philosophy of node.js is:
 Node.js is different from client-side Javascript in that it removes certain things,
 like DOM manipulation, and adds support for evented I/O, processes, streams, HTTP, SSL, DNS, string and buffer processing and C/C++ addons.
 
+The most common example Hello World of Node.js is a web server:
+```js
+const { createServer } = require('node:http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
 ### Event Loop
 
 The event loop is a mechanism which allows you to specify what happens when a particular event occurs.
