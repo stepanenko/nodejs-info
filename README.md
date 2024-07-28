@@ -3,7 +3,7 @@
 
 [NodeJS Guide](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | [NodeJS Latest Docs](https://nodejs.org/docs/latest/api/)
 
-[Mixu's Node book](https://book.mixu.net/node/single.html)
+[Mixu's NodeJS book](https://book.mixu.net/node/single.html) | [NodeJS Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 
 The basic philosophy of node.js is:
 - Non-blocking I/O - every I/O call must take a callback, whether it is to retrieve information from disk, network or another process.
