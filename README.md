@@ -57,7 +57,7 @@ or to scale to multiple cores and multiple machines (to get more CPU's working o
 
 ## Antipatterns:
 
-Mixin, middleware, reference pollution, prototype pollution
+Mixin, middleware, reference pollution, prototype pollution - need more research...
 
 ## Vulnerabilities:
 
